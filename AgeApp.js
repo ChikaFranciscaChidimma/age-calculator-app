@@ -21,11 +21,11 @@ function calculateAge() {
 
   let message = '';
   if (age < 10) {
-    message = `👶 You're just ${age} years old! So much ahead!`;
+    message = ` You're just ${age} years old! So much ahead!`;
   } else if (age < 13) {
-    message = `🌟 You're ${age}! Ready to become a STEM star!`;
+    message = ` You're ${age}! Ready to become a STEM star!`;
   } else {
-    message = `🚀 You're ${age} years awesome and counting!`;
+    message = ` You're ${age} years awesome and counting!`;
   }
 
   document.getElementById('resultArea').innerHTML = message;
